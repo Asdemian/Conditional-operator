@@ -1,12 +1,23 @@
 public class Main {
     public static void main(String[] args) {
         //task 1
-        int comingOfAge = 22;
-        if (comingOfAge >= 18) {
+        int person = 25;
+        if (person >= 18) {
             System.out.println("Поздравляем Вы совершеннолетний!");
         }
-        if (comingOfAge <= 18) {
+        if (person <= 18) {
             System.out.println("Ваш возраст для совершенолетия еще не наступил");
+        }
+            //task 2
+
+        if (person >= 7 && person <18) {
+                System.out.println("Ребенок ходит в школу");
+        }
+        if (person >= 18 && person <24) {
+                System.out.println("Человек уже закончил школу и может отправляться в университет");
+        }
+        if (person >= 24) {
+                System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
     }
 }
